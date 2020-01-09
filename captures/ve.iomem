@@ -1,0 +1,166 @@
+00000000-00000fff : Reserved
+00001000-0009a7ff : System RAM
+0009a800-0009ffff : Reserved
+000a0000-000bffff : PCI Bus 0000:00
+000c0000-000c7fff : Video ROM
+  000c4000-000c7fff : PCI Bus 0000:00
+000c8000-000c87ff : Adapter ROM
+000c8800-000c95ff : Adapter ROM
+000e0000-000fffff : Reserved
+  000f0000-000fffff : System ROM
+00100000-5dc01fff : System RAM
+5dc02000-5e024fff : ACPI Non-volatile Storage
+5e025000-698cdfff : System RAM
+698ce000-6b9cdfff : Reserved
+  6a980018-6a980018 : APEI ERST
+  6a98001c-6a980021 : APEI ERST
+  6a980028-6a980039 : APEI ERST
+  6a980040-6a98004c : APEI ERST
+  6a980050-6a98204f : APEI ERST
+6b9ce000-6bdf6fff : System RAM
+6bdf7000-6ce82fff : ACPI Non-volatile Storage
+6ce83000-6f2d2fff : Reserved
+6f2d3000-6f7fffff : System RAM
+6f800000-8fffffff : Reserved
+  80000000-8fffffff : PCI MMCONFIG 0000 [bus 00-ff]
+90000000-aaffffff : PCI Bus 0000:00
+  a9000000-aa0fffff : PCI Bus 0000:02
+    a9000000-aa0fffff : PCI Bus 0000:03
+      a9000000-a9ffffff : 0000:03:00.0
+      aa000000-aa01ffff : 0000:03:00.0
+  aa100000-aa17ffff : 0000:00:17.0
+    aa100000-aa17ffff : ahci
+  aa180000-aa1fffff : 0000:00:11.5
+    aa180000-aa1fffff : ahci
+  aa200000-aa20ffff : 0000:00:14.0
+    aa200000-aa20ffff : xhci-hcd
+  aa210000-aa213fff : 0000:00:1f.2
+  aa214000-aa215fff : 0000:00:17.0
+    aa214000-aa215fff : ahci
+  aa216000-aa217fff : 0000:00:11.5
+    aa216000-aa217fff : ahci
+  aa218000-aa2180ff : 0000:00:17.0
+    aa218000-aa2180ff : ahci
+  aa219000-aa2190ff : 0000:00:11.5
+    aa219000-aa2190ff : ahci
+  aa21a000-aa21afff : 0000:00:05.4
+  aaffc000-aaffcfff : dmar3
+ab000000-c5ffffff : PCI Bus 0000:16
+  c2000000-c3ffffff : 0000:16:05.5
+    c2000000-c3ffffff : VMD MEMBAR1
+      c2000000-c21fffff : PCI Bus 10000:01
+      c2200000-c23fffff : PCI Bus 10000:01
+      c2400000-c25fffff : PCI Bus 10000:02
+      c2600000-c27fffff : PCI Bus 10000:02
+  c4000000-c41fffff : PCI Bus 0000:17
+    c4000000-c40fffff : 0000:17:00.0
+    c4100000-c413ffff : 0000:17:00.0
+      c4100000-c413ffff : mpt3sas
+    c4140000-c414ffff : 0000:17:00.0
+      c4140000-c414ffff : mpt3sas
+  c4200000-c4200fff : 0000:16:05.4
+  c5ffc000-c5ffcfff : dmar0
+c6000000-e0ffffff : PCI Bus 0000:64
+  de000000-dfffffff : 0000:64:05.5
+    de000000-dfffffff : VMD MEMBAR1
+      de000000-de0fffff : PCI Bus 10001:01
+        de000000-de00ffff : 10001:01:00.0
+          de000000-de00ffff : nvme
+        de010000-de01ffff : 10001:01:00.0
+          de010000-de01ffff : nvme
+  e0000000-e02fffff : PCI Bus 0000:65
+    e0000000-e00fffff : 0000:65:00.0
+    e0100000-e01fffff : PCI Bus 0000:66
+      e0100000-e01fffff : PCI Bus 0000:67
+        e0100000-e017ffff : 0000:67:00.0
+        e0180000-e01fffff : 0000:67:00.1
+    e0200000-e021ffff : 0000:65:00.0
+  e0300000-e0300fff : 0000:64:05.4
+  e0ffc000-e0ffcfff : dmar1
+e1000000-fbffffff : PCI Bus 0000:b2
+  f8000000-f9ffffff : 0000:b2:05.5
+    f8000000-f9ffffff : VMD MEMBAR1
+  fa000000-fa000fff : 0000:b2:05.4
+  fbffc000-fbffcfff : dmar2
+fd000000-fe7fffff : Reserved
+  fd000000-fdabffff : pnp 00:05
+  fdad0000-fdadffff : pnp 00:05
+  fdb00000-fdffffff : pnp 00:05
+  fe000000-fe00ffff : pnp 00:05
+  fe010000-fe010fff : PCI Bus 0000:00
+    fe010000-fe010fff : 0000:00:1f.5
+  fe011000-fe01ffff : pnp 00:05
+  fe036000-fe03bfff : pnp 00:05
+  fe03d000-fe3fffff : pnp 00:05
+  fe410000-fe7fffff : pnp 00:05
+fec00000-fecfffff : PNP0003:00
+  fec00000-fec003ff : IOAPIC 0
+  fec01000-fec013ff : IOAPIC 1
+  fec08000-fec083ff : IOAPIC 2
+  fec10000-fec103ff : IOAPIC 3
+  fec18000-fec183ff : IOAPIC 4
+fed00000-fed003ff : HPET 0
+  fed00000-fed003ff : PNP0103:00
+fed12000-fed1200f : pnp 00:01
+fed12010-fed1201f : pnp 00:01
+fed1b000-fed1bfff : pnp 00:01
+fed20000-fed44fff : Reserved
+fed45000-fed8bfff : pnp 00:01
+fee00000-feefffff : pnp 00:01
+  fee00000-fee00fff : Local APIC
+ff000000-ffffffff : Reserved
+  ff000000-ffffffff : pnp 00:01
+100000000-107fffffff : System RAM
+  cd1600000-cd2400e90 : Kernel code
+  cd2400e91-cd2e4837f : Kernel data
+  cd30ee000-cd35fffff : Kernel bss
+380000000000-383fffffffff : PCI Bus 0000:00
+  380000000000-3800000000ff : 0000:00:1f.4
+  383ffff00000-383ffff03fff : 0000:00:04.7
+    383ffff00000-383ffff03fff : ioatdma
+  383ffff04000-383ffff07fff : 0000:00:04.6
+    383ffff04000-383ffff07fff : ioatdma
+  383ffff08000-383ffff0bfff : 0000:00:04.5
+    383ffff08000-383ffff0bfff : ioatdma
+  383ffff0c000-383ffff0ffff : 0000:00:04.4
+    383ffff0c000-383ffff0ffff : ioatdma
+  383ffff10000-383ffff13fff : 0000:00:04.3
+    383ffff10000-383ffff13fff : ioatdma
+  383ffff14000-383ffff17fff : 0000:00:04.2
+    383ffff14000-383ffff17fff : ioatdma
+  383ffff18000-383ffff1bfff : 0000:00:04.1
+    383ffff18000-383ffff1bfff : ioatdma
+  383ffff1c000-383ffff1ffff : 0000:00:04.0
+    383ffff1c000-383ffff1ffff : ioatdma
+  383ffff20000-383ffff20fff : 0000:00:16.4
+  383ffff21000-383ffff21fff : 0000:00:16.1
+  383ffff22000-383ffff22fff : 0000:00:16.0
+    383ffff22000-383ffff22fff : mei_me
+  383ffff23000-383ffff23fff : 0000:00:14.2
+384000000000-387fffffffff : PCI Bus 0000:16
+  387ffc000000-387ffdffffff : 0000:16:05.5
+  387ffff00000-387fffffffff : 0000:16:05.5
+    387ffff02000-387fffffffff : VMD MEMBAR2
+388000000000-38bfffffffff : PCI Bus 0000:64
+  388000000000-388003ffffff : PCI Bus 0000:65
+    388000000000-388003ffffff : PCI Bus 0000:66
+      388000000000-388003ffffff : PCI Bus 0000:67
+        388000000000-388000ffffff : 0000:67:00.0
+          388000000000-388000ffffff : i40e
+        388001000000-388001ffffff : 0000:67:00.1
+          388001000000-388001ffffff : i40e
+        388002000000-3880023fffff : 0000:67:00.0
+        388002400000-3880027fffff : 0000:67:00.1
+        388002800000-388002807fff : 0000:67:00.0
+          388002800000-388002807fff : i40e
+        388002808000-38800280ffff : 0000:67:00.1
+          388002808000-38800280ffff : i40e
+        388002810000-38800288ffff : 0000:67:00.0
+        388002890000-38800290ffff : 0000:67:00.1
+  38bffc000000-38bffdffffff : 0000:64:05.5
+  38bffff00000-38bfffffffff : 0000:64:05.5
+    38bffff02000-38bfffffffff : VMD MEMBAR2
+38c000000000-38ffffffffff : PCI Bus 0000:b2
+  38fffc000000-38fffdffffff : 0000:b2:05.5
+  38fffff00000-38ffffffffff : 0000:b2:05.5
+    38fffff02000-38ffffffffff : VMD MEMBAR2
