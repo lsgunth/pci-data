@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+HOST=$(hostname)
+OUTDIR=captures
+
+dmidecode > "$OUTDIR/$HOST.dmidecode"
+dmesg > "$OUTDIR/$HOST.dmesg"
+lspci > "$OUTDIR/$HOST.lspci"
+lspci -vvv -xxxx > "$OUTDIR/$HOST.xlspci"
+lspci -t > "$OUTDIR/$HOST.tree"
+cat /proc/bus/pci/devices > "$OUTDIR/$HOST.proc"
+cat /proc/iomem > "$OUTDIR/$HOST.iomem"
