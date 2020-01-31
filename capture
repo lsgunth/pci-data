@@ -5,6 +5,12 @@ set -e
 HOST=$(hostname)
 OUTDIR=captures
 
+i=2
+while [ -e "$OUTDIR/$HOST.dmidecode" ]; do
+	HOST="$HOST-$i"
+	let i=i+1
+done
+
 dmidecode > "$OUTDIR/$HOST.dmidecode"
 dmesg > "$OUTDIR/$HOST.dmesg"
 lspci > "$OUTDIR/$HOST.lspci"
